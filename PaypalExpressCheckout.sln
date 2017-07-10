@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayPalCore", "PayPalCore\PayPalCore.csproj", "{01CB15F8-CD64-4009-A506-F19C05887D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalExpressCheckout.BusinessLogic", "PaypalExpressCheckout.BusinessLogic\PaypalExpressCheckout.BusinessLogic.csproj", "{0CB04B76-2608-4C7D-A3F3-7FFA109D9BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalExpressCheckout.Web", "PaypalExpressCheckout.Web\PaypalExpressCheckout.Web.csproj", "{AF173C69-32BC-436E-9DDB-5E6D14D6276C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CB15F8-CD64-4009-A506-F19C05887D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CB15F8-CD64-4009-A506-F19C05887D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CB15F8-CD64-4009-A506-F19C05887D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CB15F8-CD64-4009-A506-F19C05887D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB04B76-2608-4C7D-A3F3-7FFA109D9BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB04B76-2608-4C7D-A3F3-7FFA109D9BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB04B76-2608-4C7D-A3F3-7FFA109D9BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB04B76-2608-4C7D-A3F3-7FFA109D9BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF173C69-32BC-436E-9DDB-5E6D14D6276C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF173C69-32BC-436E-9DDB-5E6D14D6276C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF173C69-32BC-436E-9DDB-5E6D14D6276C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF173C69-32BC-436E-9DDB-5E6D14D6276C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
