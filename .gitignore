@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PayPalCore/bin/Debug/netcoreapp1.1
+/PayPalCore/obj
+/PaypalExpressCheckout.BusinessLogic/bin/Debug/netcoreapp1.1
+/PaypalExpressCheckout.BusinessLogic/obj/Debug/netcoreapp1.1
+/PaypalExpressCheckout.BusinessLogic/obj
+/PaypalExpressCheckout.Web/bin/Debug/netcoreapp1.1
+/PaypalExpressCheckout.Web/obj/Debug/netcoreapp1.1
+/PaypalExpressCheckout.Web/obj
+/.vs/PaypalExpressCheckout/v15/Server/sqlite3
+/.vs/PaypalExpressCheckout/v15

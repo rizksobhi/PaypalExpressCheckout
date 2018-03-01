@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Net;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -97,7 +95,7 @@ namespace PayPal.Api
         /// <param name="config"></param>
         public OAuthTokenCredential(string clientId = "", string clientSecret = "", Dictionary<string, string> config = null)
         {
-            this.config = new Dictionary<string, string>();// config != null ? ConfigManager.GetConfigWithDefaults(config) : ConfigManager.GetConfigWithDefaults(ConfigManager.Instance.GetProperties());
+            this.config = config != null ? ConfigManager.GetConfigWithDefaults(config) : ConfigManager.GetConfigWithDefaults(ConfigManager.Instance.GetProperties());
 
             // Set the client ID.
             if(string.IsNullOrEmpty(clientId))
